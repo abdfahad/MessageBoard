@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded',()=>{
                 alert(`${toDb.status} : something went wrong`);
             }
         }  
-        toDb.open('POST', 'https://floating-lake-82994.herokuapp.com/', true);
+        toDb.open('POST', 'https://floating-lake-82994.herokuapp.com/messages', true);
         toDb.setRequestHeader('Content-type', 'application/json');
         toDb.send(JSON.stringify(msg));
     })
