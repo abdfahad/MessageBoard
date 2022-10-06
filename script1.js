@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded',()=>{
         }
     }
 
-    initiate.open("GET", "https://floating-lake-82994.herokuapp.com/messages");
+    initiate.open("GET", "https://arcane-woodland-17272.herokuapp.com/messages");
     initiate.send();
 
     document.getElementById('newMsg').addEventListener('click',(event)=>{
