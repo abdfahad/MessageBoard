@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded',()=>{
                 alert(`${toDb.status} : something went wrong`);
             }
         }  
-        toDb.open('POST', 'http://localhost:3000/messages', true);
+        toDb.open('POST', 'https://arcane-woodland-17272.herokuapp.com/messages', true);
         toDb.setRequestHeader('Content-type', 'application/json');
         toDb.send(JSON.stringify(msg));
     })
