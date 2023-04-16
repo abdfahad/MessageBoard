@@ -40,3 +40,13 @@ Response:
 
 status code 200: SMS sent successfully. The message "SMS with code sent" is returned in JSON format.
 status code 400: SMS not sent. The reason for failure is given in the message field of the JSON object.
+Request Method: POST
+Request URL: /sendVerificationSMS
+Request Parameters:
+
+id: (number) The user ID of the user.
+mobileNumber: (string) The mobile number of the user.
+Response:
+
+status code 200: SMS sent successfully. The message "SMS with code sent" is returned in JSON format.
+status code 400: SMS not sent. The reason for failure is given in the message field of the JSON object.
