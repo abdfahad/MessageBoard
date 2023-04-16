@@ -32,7 +32,7 @@ The Verify Registration Code API is used to verify the registration code sent to
 **Request Parameters**:
 
 - `id`: (number) The user ID of the user to be verified.
-- `code`: (string) The code sent to the user.
+- `code`: (number) The code sent to the user.
 
 **Response**:
 
